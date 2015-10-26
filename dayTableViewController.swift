@@ -11,12 +11,12 @@ import UIKit
 class dayTableViewController: UITableViewController {
     
     let diffDay = ["Monday",
-        "Tuesday",
-        "Wednesday",
-        "Thursday",
-        "Friday",
-        "Saturday",
-        "Sunday"]
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday",
+                "Saturday",
+                "Sunday"]
     var days = daysdb()
     var emptyEve = [event]()
     
