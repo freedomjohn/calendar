@@ -8,12 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		589B7BB71BDE26020000534B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 589B7BB61BDE26020000534B /* AppDelegate.swift */; };
-		589B7BB91BDE26020000534B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 589B7BB81BDE26020000534B /* ViewController.swift */; };
 		589B7BBC1BDE26020000534B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 589B7BBA1BDE26020000534B /* Main.storyboard */; };
 		589B7BBE1BDE26020000534B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 589B7BBD1BDE26020000534B /* Assets.xcassets */; };
 		589B7BC11BDE26020000534B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 589B7BBF1BDE26020000534B /* LaunchScreen.storyboard */; };
 		589B7BCC1BDE26020000534B /* calendar2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 589B7BCB1BDE26020000534B /* calendar2Tests.swift */; };
 		589B7BD71BDE26020000534B /* calendar2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 589B7BD61BDE26020000534B /* calendar2UITests.swift */; };
+		589B7BE51BDE26780000534B /* dayTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 589B7BE41BDE26780000534B /* dayTableViewController.swift */; };
+		589B7BE71BDE26850000534B /* eventTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 589B7BE61BDE26850000534B /* eventTableViewController.swift */; };
+		589B7BE91BDE26AC0000534B /* infoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 589B7BE81BDE26AC0000534B /* infoViewController.swift */; };
+		589B7BEB1BDE27B00000534B /* day.swift in Sources */ = {isa = PBXBuildFile; fileRef = 589B7BEA1BDE27B00000534B /* day.swift */; };
+		589B7BED1BDE27BC0000534B /* event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 589B7BEC1BDE27BC0000534B /* event.swift */; };
+		589B7BF71BDE554C0000534B /* daysdb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 589B7BF61BDE554C0000534B /* daysdb.swift */; };
+		589B7BFD1BDE7D1B0000534B /* secondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 589B7BFC1BDE7D1B0000534B /* secondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +42,6 @@
 /* Begin PBXFileReference section */
 		589B7BB31BDE26020000534B /* calendar2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = calendar2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		589B7BB61BDE26020000534B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		589B7BB81BDE26020000534B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		589B7BBB1BDE26020000534B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		589B7BBD1BDE26020000534B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		589B7BC01BDE26020000534B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +52,13 @@
 		589B7BD21BDE26020000534B /* calendar2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = calendar2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		589B7BD61BDE26020000534B /* calendar2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = calendar2UITests.swift; sourceTree = "<group>"; };
 		589B7BD81BDE26020000534B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		589B7BE41BDE26780000534B /* dayTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = dayTableViewController.swift; path = ../dayTableViewController.swift; sourceTree = "<group>"; };
+		589B7BE61BDE26850000534B /* eventTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = eventTableViewController.swift; path = ../eventTableViewController.swift; sourceTree = "<group>"; };
+		589B7BE81BDE26AC0000534B /* infoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = infoViewController.swift; path = ../infoViewController.swift; sourceTree = "<group>"; };
+		589B7BEA1BDE27B00000534B /* day.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = day.swift; sourceTree = "<group>"; };
+		589B7BEC1BDE27BC0000534B /* event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = event.swift; sourceTree = "<group>"; };
+		589B7BF61BDE554C0000534B /* daysdb.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = daysdb.swift; sourceTree = "<group>"; };
+		589B7BFC1BDE7D1B0000534B /* secondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = secondViewController.swift; path = ../secondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +89,9 @@
 		589B7BAA1BDE26020000534B = {
 			isa = PBXGroup;
 			children = (
+				589B7BEA1BDE27B00000534B /* day.swift */,
+				589B7BF61BDE554C0000534B /* daysdb.swift */,
+				589B7BEC1BDE27BC0000534B /* event.swift */,
 				589B7BB51BDE26020000534B /* calendar2 */,
 				589B7BCA1BDE26020000534B /* calendar2Tests */,
 				589B7BD51BDE26020000534B /* calendar2UITests */,
@@ -98,7 +113,10 @@
 			isa = PBXGroup;
 			children = (
 				589B7BB61BDE26020000534B /* AppDelegate.swift */,
-				589B7BB81BDE26020000534B /* ViewController.swift */,
+				589B7BE41BDE26780000534B /* dayTableViewController.swift */,
+				589B7BE61BDE26850000534B /* eventTableViewController.swift */,
+				589B7BE81BDE26AC0000534B /* infoViewController.swift */,
+				589B7BFC1BDE7D1B0000534B /* secondViewController.swift */,
 				589B7BBA1BDE26020000534B /* Main.storyboard */,
 				589B7BBD1BDE26020000534B /* Assets.xcassets */,
 				589B7BBF1BDE26020000534B /* LaunchScreen.storyboard */,
@@ -259,8 +277,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				589B7BB91BDE26020000534B /* ViewController.swift in Sources */,
+				589B7BFD1BDE7D1B0000534B /* secondViewController.swift in Sources */,
+				589B7BE71BDE26850000534B /* eventTableViewController.swift in Sources */,
+				589B7BEB1BDE27B00000534B /* day.swift in Sources */,
+				589B7BED1BDE27BC0000534B /* event.swift in Sources */,
+				589B7BE51BDE26780000534B /* dayTableViewController.swift in Sources */,
+				589B7BE91BDE26AC0000534B /* infoViewController.swift in Sources */,
 				589B7BB71BDE26020000534B /* AppDelegate.swift in Sources */,
+				589B7BF71BDE554C0000534B /* daysdb.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
