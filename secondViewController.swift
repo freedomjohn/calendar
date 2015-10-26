@@ -24,6 +24,7 @@ class secondViewController: UIViewController {
     
     @IBAction func senddata(sender: AnyObject) {
         if (delegate != nil){
+            
             let information = eveName.text
             delegate!.userDidEnterInformation(information!)
             self.navigationController!.popViewControllerAnimated(true)
